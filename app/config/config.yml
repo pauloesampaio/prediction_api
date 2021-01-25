@@ -1,0 +1,18 @@
+paths:
+  model_path: "./model/model.h5"
+
+model:
+  input_shape: [224, 224]
+  target_encoder:
+    print:
+      [
+        "embroidered",
+        "solid",
+        "graphic",
+        "floral",
+        "striped",
+        "lattice",
+        "pleated",
+      ]
+    sleeves: ["sleeveless", "long_sleeve", "short_sleeve"]
+    neckline: ["no_neckline", "v_neckline", "crew_neckline", "square_neckline"]
